@@ -10,4 +10,4 @@ variable "clusterName" {
   default     = "gitops-eks"
 }
 
-## Testing the Workflow ##
+## Testing the Workflow ####
