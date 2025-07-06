@@ -25,9 +25,9 @@ terraform {
       version = "~> 2.23.0"
     }
   }
-
+ 
   backend "s3" {
-    bucket = "gitopsterrastate"
+    bucket = "gitops-project23"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
