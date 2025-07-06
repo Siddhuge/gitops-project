@@ -25,7 +25,7 @@ terraform {
       version = "~> 2.23.0"
     }
   }
- 
+
   backend "s3" {
     bucket = "gitops-project234"
     key    = "terraform.tfstate"
